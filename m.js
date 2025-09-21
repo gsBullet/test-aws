@@ -11,7 +11,7 @@ app.post('/text', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('welcome to backend');
+    res.send('welcome to backend API');
 });
 
 app.listen(port, () => {
